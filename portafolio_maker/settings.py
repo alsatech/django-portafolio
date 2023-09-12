@@ -91,6 +91,8 @@ DATABASES = {
     )
 }
 
+DATABASES['default'] = dj_database_url.parse("postgres://portafoliodb_18cv_user:8IdU3OpnZYjU5lk9KYrj0sm53czPlIDy@dpg-ck0c4ue3ktkc73dd3eig-a.oregon-postgres.render.com/portafoliodb_18cv")
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
